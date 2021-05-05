@@ -1,0 +1,49 @@
+<KStars>
+    <Version>string</Version>
+    <Option>
+        <SpeakerList>string</SpeakerList>
+        <StringOption>string</StringOption>
+    </Option>
+    <Header>
+        <SpeechType>string</SpeechType>
+        <Participants>string</Participants>
+        <BirthPlaceOfCHI>string</BirthPlaceOfCHI>
+        <Location>string</Location>
+        <Situation>string</Situation>
+        <Recording>string</Recording>
+        <Transcriber>string</Transcriber>
+        <Reviewer>string</Reviewer>
+        <Comment>string</Comment>
+        <ID>
+            <IDCorpus>string</IDCorpus>
+            <IDCode>string</IDCode>
+            <IDDateOfBirth>string</IDDateOfBirth>
+            <IDAge>string</IDAge>
+            <IDSex>string</IDSex>
+            <IDGroup>string</IDGroup>
+            <IDRegion>string</IDRegion>
+            <IDSES>string</IDSES>
+            <IDEdu>string</IDEdu>
+            <IDRole>string</IDRole>
+        </ID>
+    </Header>
+    <Tier type="string">
+        <Data uid="string">
+            <Speaker>string</Speaker>
+            <Text>string</Text>
+            <Time>string</Time>
+        </Data>
+    </Tier>
+    <Tier type="string">
+        <Data uid="string">
+            <Speaker>string</Speaker>
+            <MEtri>string</MEtri>
+            <MUser>string</MUser>
+        </Data>
+    </Tier>
+    <Audio>
+        <AudioPath>string</AudioPath>
+        <AudioFileIndex />
+        <AudioCurrentPosition />
+    </Audio>
+</KStars>
