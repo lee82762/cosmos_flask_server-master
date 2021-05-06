@@ -393,7 +393,9 @@ def test():
 def cosmos_create_file():
     # request.josn = 스프링에서 restTemplate로 보낸 json데이터를 담는다.
     data = request.json
-    print(data)
+
+    print("sdsdsddsds")
+
 
     # 기억이 안남
     def indent(node, level=0):
@@ -504,13 +506,12 @@ def cosmos_create_file():
     indent(root)
 
     print(root)
-    print(indent(root))
+
     tree = ElementTree(root)
 
+    localPath = os.path.abspath("C:/emp")
+    print(data['userDto']['user'])
 
-    localPath = os.path.abspath("C:/Users/emp")
-
-    print(data['userDto']['fileName'])
 
 
     if data['userDto']['user'] == "guest":
